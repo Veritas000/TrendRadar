@@ -42,7 +42,42 @@
 # 在这里写入你想关注的关键词。
 # 每个词组用空行分隔，同一词组内的关键词是"或"的关系。
 #[WORD_GROUPS]
+↳
 
+④ AI × Family × Adolescents
+AI-assisted education ⇒ Family AI education
+Family AI education
+AI fundamentals
+AI for adolescents
+
+children
+! programming bootcamps
+! commercial advertising
+@8
+↳
+
+⑤ Scientific Literacy & Innovation Thinking
+Scientific literacy ⇒ Innovation & science education
+Family science experiments
+Innovation thinking
+Nature education
+Phenomenon-based learning
+↳
+
+hands-on practice
+! competition training
+@8
+
+⑥ Adolescent Skills & Future Development
+Youth development ⇒ Future-ready skills for adolescents
+Youth entrepreneurship projects
+Youth development
+Future skills
+Intelligent manufacturing
+
+adolescents
+! fundraising
+! commercial roadshows
 # ═══════════════════════════════════════════════════════════════
 #                           AI 人工智能
 # ═══════════════════════════════════════════════════════════════
