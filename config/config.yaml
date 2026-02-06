@@ -26,7 +26,7 @@ app:
 #   - name: 显示名称（可自定义，修改后不影响运行）
 # ===============================================================
 platforms:
-  enabled: true                         # 是否启用热榜平台抓取
+  enabled: false                        # 是否启用热榜平台抓取
   sources:
     - id: "toutiao"
       name: "今日头条"
@@ -86,17 +86,17 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
+    #- id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
       # max_age_days: 1               # 示例：只推送1天内的文章
 
-    - id: "ruanyifeng"
+    #- id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
     
-    - id: "yahoo-finance"
+    #- id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
@@ -121,7 +121,7 @@ rss:
     - id: "jyb-theory"
       name: "中国教育报 理论观察"
       url: "http://www.jyb.cn/rmtzcg/llgc/"
-      enabled: false
+      enabled: true
       max_age_days: 14
     
     - id: "moe-policy"
@@ -133,7 +133,7 @@ rss:
     - id: "moe-news"
       name: "教育部 工作动态"
       url: "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/"
-      enabled: false
+      enabled: true
       max_age_days: 7
     
     - id: "jmd-edu"
@@ -145,20 +145,73 @@ rss:
     - id: "duojing-edu"
       name: "多鲸 教育行业观察"
       url: "https://www.duojingdata.com/"
-      enabled: false
+      enabled: true
       max_age_days: 3
     
     - id: "edsurge-news"
       name: "EdSurge 教育科技"
       url: "https://www.edsurge.com/news"
-      enabled: false
+      enabled: true
       max_age_days: 3
     
     - id: "edweek-news"
       name: "Education Week 教育新闻"
       url: "https://www.edweek.org/education"
-      enabled: false
+      enabled: true
       max_age_days: 3
+    - id: "google-news-edu-cn"
+      name: "Google News 教育 中文"
+      url: "https://news.google.com/rss/search?q=教育&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "google-news-education"
+      name: "Google News Education"
+      url: "https://news.google.com/rss/search?q=education"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "people-edu"
+      name: "人民网 教育频道"
+      url: "http://edu.people.com.cn/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "xinhuanet-edu"
+      name: "新华网 教育"
+      url: "http://education.news.cn/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "cctv-edu"
+      name: "央视网 教育"
+      url: "https://edu.cctv.com/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "chinadaily-edu"
+      name: "China Daily 教育"
+      url: "https://www.chinadaily.com.cn/rss/education.xml"
+      enabled: true
+      max_age_days: 7
+    
+    - id: "guardian-edu"
+      name: "The Guardian 教育"
+      url: "https://www.theguardian.com/education/rss"
+      enabled: true
+      max_age_days: 7
+    
+    - id: "insidehighered"
+      name: "Inside Higher Ed"
+      url: "https://www.insidehighered.com/rss/news"
+      enabled: true
+      max_age_days: 7
+    
+    - id: "timeshighered"
+      name: "Times Higher Education"
+      url: "https://www.timeshighereducation.com/rss/news"
+      enabled: true
+      max_age_days: 7
 
     # 自定义源示例
             # 示例：禁用过滤，推送所有文章
