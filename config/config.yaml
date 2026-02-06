@@ -100,13 +100,68 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
+    - id: "eol-policy"
+      name: "中国教育在线 政策资讯"
+      url: "https://www.eol.cn/news/yaowen/"
+      enabled: true
+      max_age_days: 7
+    
+    - id: "eol-news"
+      name: "中国教育在线 教育新闻"
+      url: "https://www.eol.cn/news/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "jyb-news"
+      name: "中国教育报 新闻"
+      url: "http://www.jyb.cn/rmtzcg/xwy/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "jyb-theory"
+      name: "中国教育报 理论观察"
+      url: "http://www.jyb.cn/rmtzcg/llgc/"
+      enabled: false
+      max_age_days: 14
+    
+    - id: "moe-policy"
+      name: "教育部 政策文件"
+      url: "http://www.moe.gov.cn/jyb_xxgk/moe_1777/"
+      enabled: true
+      max_age_days: 30
+    
+    - id: "moe-news"
+      name: "教育部 工作动态"
+      url: "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/"
+      enabled: false
+      max_age_days: 7
+    
+    - id: "jmd-edu"
+      name: "芥末堆 教育产业"
+      url: "https://www.jiemodui.com/"
+      enabled: true
+      max_age_days: 3
+    
+    - id: "duojing-edu"
+      name: "多鲸 教育行业观察"
+      url: "https://www.duojingdata.com/"
+      enabled: false
+      max_age_days: 3
+    
+    - id: "edsurge-news"
+      name: "EdSurge 教育科技"
+      url: "https://www.edsurge.com/news"
+      enabled: false
+      max_age_days: 3
+    
+    - id: "edweek-news"
+      name: "Education Week 教育新闻"
+      url: "https://www.edweek.org/education"
+      enabled: false
+      max_age_days: 3
 
     # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+            # 示例：禁用过滤，推送所有文章
 
 
 # ===============================================================
