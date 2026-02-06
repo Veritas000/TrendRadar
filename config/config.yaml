@@ -86,118 +86,71 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-      - id: "eol-policy"
-        name: "中国教育在线 政策资讯"
-        url: "https://www.eol.cn/news/yaowen/"
-        enabled: true
-        max_age_days: 7
-      
-      - id: "eol-news"
-        name: "中国教育在线 教育新闻"
-        url: "https://www.eol.cn/news/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "jyb-news"
-        name: "中国教育报 新闻"
-        url: "http://www.jyb.cn/rmtzcg/xwy/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "jyb-theory"
-        name: "中国教育报 理论观察"
-        url: "http://www.jyb.cn/rmtzcg/llgc/"
-        enabled: true
-        max_age_days: 14
-      
-      - id: "moe-policy"
-        name: "教育部 政策文件"
-        url: "http://www.moe.gov.cn/jyb_xxgk/moe_1777/"
-        enabled: true
-        max_age_days: 30
-      
-      - id: "moe-news"
-        name: "教育部 工作动态"
-        url: "http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/"
-        enabled: true
-        max_age_days: 7
-      
-      - id: "jmd-edu"
-        name: "芥末堆 教育产业"
-        url: "https://www.jiemodui.com/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "duojing-edu"
-        name: "多鲸 教育行业观察"
-        url: "https://www.duojingdata.com/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "edsurge-news"
-        name: "EdSurge 教育科技"
-        url: "https://www.edsurge.com/news"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "edweek-news"
-        name: "Education Week 教育新闻"
-        url: "https://www.edweek.org/education"
-        enabled: true
-        max_age_days: 3
-      - id: "google-news-edu-cn"
-        name: "Google News 教育 中文"
-        url: "https://news.google.com/rss/search?q=教育&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "google-news-education"
-        name: "Google News Education"
-        url: "https://news.google.com/rss/search?q=education"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "people-edu"
-        name: "人民网 教育频道"
-        url: "http://edu.people.com.cn/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "xinhuanet-edu"
-        name: "新华网 教育"
-        url: "http://education.news.cn/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "cctv-edu"
-        name: "央视网 教育"
-        url: "https://edu.cctv.com/"
-        enabled: true
-        max_age_days: 3
-      
-      - id: "chinadaily-edu"
-        name: "China Daily 教育"
-        url: "https://www.chinadaily.com.cn/rss/education.xml"
-        enabled: true
-        max_age_days: 7
-      
-      - id: "guardian-edu"
-        name: "The Guardian 教育"
-        url: "https://www.theguardian.com/education/rss"
-        enabled: true
-        max_age_days: 7
-      
-      - id: "insidehighered"
-        name: "Inside Higher Ed"
-        url: "https://www.insidehighered.com/rss/news"
-        enabled: true
-        max_age_days: 7
-      
-      - id: "timeshighered"
-        name: "Times Higher Education"
-        url: "https://www.timeshighereducation.com/rss/news"
-        enabled: true
-        max_age_days: 7
+        - id: "guardian-education"
+          name: "The Guardian Education"
+          url: "https://www.theguardian.com/education/rss"
+          enabled: true
+          max_age_days: 7
+
+        - id: "edsurge-rss"
+          name: "EdSurge RSS"
+          url: "https://www.edsurge.com/rss"
+          enabled: true
+          max_age_days: 7
+        
+        - id: "insidehighered-rss"
+          name: "Inside Higher Ed RSS"
+          url: "https://www.insidehighered.com/rss"
+          enabled: true
+          max_age_days: 7
+        
+        - id: "chronicle-highered"
+          name: "Chronicle of Higher Education"
+          url: "https://www.chronicle.com/section/News/rss"
+          enabled: true
+          max_age_days: 7
+        
+        - id: "timeshighereducation-rss"
+          name: "Times Higher Education RSS"
+          url: "https://www.timeshighereducation.com/rss"
+          enabled: true
+          max_age_days: 7
+        - id: "google-news-edu-cn"
+          name: "Google News 教育 中文"
+          url: "https://news.google.com/rss/search?q=教育&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+          enabled: true
+          max_age_days: 3
+        
+        - id: "google-news-k12"
+          name: "Google News K12 教育"
+          url: "https://news.google.com/rss/search?q=K12%20教育&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+          enabled: true
+          max_age_days: 3
+        
+        - id: "google-news-family-edu"
+          name: "Google News 家庭教育"
+          url: "https://news.google.com/rss/search?q=家庭教育&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+          enabled: true
+          max_age_days: 3
+        - id: "arxiv-education"
+          name: "arXiv 教育研究"
+          url: "http://export.arxiv.org/rss/cs.CY"
+          enabled: false
+          max_age_days: 14
+        
+        - id: "oecd-education"
+          name: "OECD Education"
+          url: "https://www.oecd.org/education/rss.xml"
+          enabled: false
+          max_age_days: 30
+        
+        - id: "unesco-education"
+          name: "UNESCO Education"
+          url: "https://www.unesco.org/en/education/rss.xml"
+          enabled: false
+          max_age_days: 30
+
+
 
     # 自定义源示例
             # 示例：禁用过滤，推送所有文章
